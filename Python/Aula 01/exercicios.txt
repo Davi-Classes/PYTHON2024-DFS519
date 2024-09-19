@@ -1,0 +1,18 @@
+Ex01. Crie uma lista com 5 elementos pre-preenchidos e mostre na tela:
+
+a. 2º Elemento
+b. 1º Elemento
+c. Ultimo Elemento
+
+Ex02. Faça um programa que peça 3 nomes e adicione-os em uma lista 
+com o .append(), ao final mostre a lista de nomes na tela
+
+Ex03. Faça um programa que peça 5 numeros, e adicione-os em uma lista.
+Ao final, mostre os numeros percorrendo a lista com o for
+
+Ex04. Faça um programa que peça 3 notas, e armazene-as em uma lista.
+Ao final, calcule a média das notas utilizando as funções "sum()" e "len()"
+
+Ex05 Faça um programa que peça 10 numeros, e armazene-os em duas listas:
+- Se o numero for par, armazene-o em uma lista chamada "pares"
+- Se o numero for impar, armazene-o em uma lista chamada "impares"

@@ -1,0 +1,12 @@
+Revisão
+
+Faça um programa que peça 8 numeros, e adicione-os em uma lista. Com a lista já preenchida, a percorra com o "for" e adicione os valores em outras 2 listas: "positivos" e "negativos"
+OBS: Desconsidere os valores "0"
+
+-------------------------------------
+
+Ex01. Faça um programa que receba "titulo", "autor" e "ano" de um livro, crie um dicionário para armazenar suas informações. Ao final, mostre as especificações do livro
+
+Ex02. Crie um dicionário com as chaves "marca", "modelo", "cor" para representar um celular (peça as informações para o usuário). Mostre na tela as especificações do celular acessando cada propriedade.
+
+Ex03. Faça um programa que cadastre o nome, peso e altura de 5 pessoas. Ao final, mostre todas as pessoas cadastradas e o seu IMC

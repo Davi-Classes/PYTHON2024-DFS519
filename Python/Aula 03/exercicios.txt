@@ -1,0 +1,35 @@
+-> Ex01. Faça um programa que peça o nome, o preço e o valor de desconto de um produto, armazene as informações em um dicionário e
+mostre: nome do produto, preço bruto e o preço com o desconto aplicado
+
+-> Ex02. Crie um programa que leia a idade de uma pessoa e informe em qual faixa etária ela se encontra. As faixas etárias são definidas da seguinte forma:
+
+- Criança: 0 a 12 anos
+- Adolescente: 13 a 17 anos
+- Adulto: 18 a 64 anos
+- Idoso: 65 anos ou mais
+
+Dicas:
+
+Utilize uma estrutura condicional para determinar a faixa etária baseada na idade fornecida.
+Exiba uma mensagem apropriada para cada faixa etária.
+
+-> Ex03. Escreva um programa que imprime a tabela de multiplicação de um número fornecido pelo usuário. Por exemplo, se o usuário escolher o número 5, o programa deve imprimir:
+ 
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+
+-> Ex04. Desenvolva um programa que peça ao usuário para digitar números inteiros e armazene-os em uma lista e continue solicitando até que o usuário digite um número negativo. Após a entrada do número negativo, o programa deve exibir: 
+
+- quais numeros positivos foram digitados (Extra: separados por hifen.)
+- a soma de todos os números positivos digitados.
+- a média de todos os numeros positivos digitados.
+
+Dicas:
+
+Utilize um loop while para continuar solicitando números enquanto o número digitado não for negativo.
+Acumule a soma dos números positivos digitados e exiba o resultado ao final.
+
+-> Ex05. Faça um programa onde o usuário irá cadastrar um estoque de produtos em um dicionário. O programa deve perguntar quantos produtos devem ser cadastrados e cada produto deve ter o nome e a quantidade, sendo salvos como chave e valor respectivamente.
