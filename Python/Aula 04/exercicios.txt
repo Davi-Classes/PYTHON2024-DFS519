@@ -1,0 +1,25 @@
+Ex01. Faça uma função que receba um nome e mostre uma mensagem de saudação na tela.
+
+Ex02. Faça uma função chamada "imc" que receba peso e altura e retorne o valor do imc
+Formula: peso / altura ** 2
+ 
+Ex03. Faça uma função chamada "categorizar_imc" que receba o valor do imc e retorne uma string com a categoria de acordo com a tabela IMC.
+-> Abaixo do Peso até 18.5
+-> Peso Ideal até 25
+-> Sobrepeso até 30
+-> Obesidade I até 35
+-> Obesidade II até 40
+-> Obesidade III a partir de 40
+
+Ex04. Faça uma função chamada "metros_para_cm" que receba um valor em metros e retorne o valor em centimetros.
+
+Ex05. Faça um programa de calculadora, o seu programa deve perguntar qual operação o usuário deseja realizar:
+
+[1] - Soma
+[2] - Subtração
+[3] - Multiplicação
+[4] - Divisão
+
+Dado a opção escolhida pelo usuário, peça 2 valores e execute a operação necessária através das funções "somar(numero1, numero2)", "subtrair(numero1, numero2)", "multiplicar(numero1, numero2)" e "dividir(numero1, numero2)"
+
+Extra: Crie uma função que mostra o menu, pede e retorna a opção do usuário. 
