@@ -1,0 +1,4 @@
+1. Instale o Python
+
+2. Instale alguma biblioteca com o comando
+-> pip install <nome_biblioteca>
