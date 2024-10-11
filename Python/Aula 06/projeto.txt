@@ -1,0 +1,40 @@
+Projeto: Gerenciador de Tarefas!
+Façam um programa que possibilite um usuário gerênciar tarefas! Utilize listas e dicionários para armazenar as informações das tarefas, seu banco deve conter a seguinte estrutura:
+
+tarefas = [
+	{
+		'id': 1,
+		'tarefa': 'Estudar Async Pytest',
+		'descricao': 'Estudar testes integrados assincronos'
+	},
+	# Outras tarefas com a mesma estrutura.
+]
+
+a. Façam um menu que deve estar dentro de um loop e mostrar as seguintes opções (Sem Implementar as Funcionalidades):
+'''
+==== Gerenciador de Tarefas ====
+[1] - Listar Tarefas
+[2] - Cadastrar Nova Tarefa
+[3] - Concluir uma tarefa
+[4] - Excluir Tarefa
+[5] - Sair
+===========================
+Selecione uma opção ->
+'''
+
+b. Com a sua lista "tarefas" pre-preenchida, implemente uma função "listar_tarefas" que deve mostrar todas as tarefas da lista na tela quando ele selecionar 
+a opção 1 no seguinte formato:
+{id}. {tarefa} 
+-> {descricao}
+
+'''
+Minhas Tarefas 
+
+1. Estudar Async Pytest 
+-> Estudar testes integrados assincronos
+
+2. ... 
+-> ..
+'''
+
+c. Quando o usuário selecionar a opção 2, chame uma função chamada "cadastrar_tarefa" que irá pedir para o usuário a tarefa e sua descrição, e crie um dicionário com as chaves 'tarefa', 'descricao' e 'id', onde a tarefa e a descrição são as informações que o usuário digitou e o ID deve ser o maior id presente na lista de tarefas mais +1.

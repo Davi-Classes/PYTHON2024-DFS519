@@ -1,0 +1,7 @@
+Ex01. Faça uma função que receba um parametro "valores" que é uma 
+lista, e retorne a media de todos os valores.
+
+def media(valores):
+    ...
+
+OBS: Utilize type hint e faça a docstring
