@@ -1,0 +1,1 @@
+1. Crie a pasta da aula de Hoje, crie um ambiente virtual, ative-o e instale o flet utilizando o PIP
