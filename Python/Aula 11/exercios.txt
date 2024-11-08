@@ -1,0 +1,34 @@
+Ex01. Façam uma classe "Pessoa" e implementem o seu metódo construtor que deve conter as seguintes propriedades:
+- nome
+- idade
+- altura
+- peso
+
+Depois, crie duas pessoas diferentes através da sua classe. E mostre suas propriedades (Se preferir, pode criar uma função "info" que printa as informações da pessoa.)
+
+
+Ex02. Crie uma classe carro que deve conter as propriedades:
+
+- marca
+- modelo
+- ano
+- cor
+- velocidade_maxima
+- velocidade_atual
+
+O construtor não precisará passar a velocidade_atual. O seu carro também deve ter os metódos "acelerar" e "freiar"
+que atualizarão a propriedade "velocidade_atual" onde ela não pode ser menor que 0 e não pode ser maior que a velocidade máxima do carro.
+
+
+Ex03. Crie uma classe "Conta" que deve conter as propriedades:
+
+- titular
+- numero
+- saldo (Será opcional e não pode ser negativo, se não for passado receberá 0)
+
+A conta terá os seguintes metódos:
+"depositar(valor)"
+"sacar(valor)"
+"transferir(valor, conta_destino)"
+
+Lembre-se que ao sacar, o valor de saque não pode ser maior que o saldo atual da conta.
