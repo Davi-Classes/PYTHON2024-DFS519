@@ -1,0 +1,14 @@
+Ex01. Crie uma classe chamada Animal que seja usada para armazenar informações sobre um animal de estimação a classe deve conter os seguintes atributos:
+
+- nome: (string) Nome do animal.
+- idade: (int) Idade do animal.
+- peso: (float) Peso do animal.
+
+Métodos:
+- aniversario(): a idade do animal irá ser somada em 1.
+- alterar_peso(peso): Um método que permite alterar o peso do animal. O peso não pode ser negativo.
+- som(onomatopeia): Deverá retornar a string f'O <nome> está fazendo <onomatopeia>', a onomatopeia não pode ser "None" ou uma string vazia.
+
+Exemplo:
+>>> animal.som('miau')
+>>> 'O floki está fazendo MIAU'
