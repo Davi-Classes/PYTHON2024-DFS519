@@ -1,0 +1,56 @@
+Ex01. Implementem as classes abaixo.
+
+a. Faça uma classe chamada "Funcionario" que deve conter as seguintes propriedades:
+
+- nome (string)
+- salario (float)
+- habilidades (lista de strings)
+
+sua classe também deve ter um metodo "salario_liquido()" que por padrão irá reduzir as seguintes taxas:
+
+- IR = 8%
+- INSS = 3%
+
+b. Crie duas classes que irão herdar de "Funcionario" chamadas "Gerente" e "Atendente", e utilize o polimorfismo para alterar a função "salario_liquido()" onde serão reduzidos as seguintes taxas:
+
+-> Gerente
+
+- IR = 15%
+- INSS = 8%
+
+-> Atendente
+
+- IR = 8%
+- INSS = 5%
+- Sindicato = 3%
+
+--------------------------------------------------------------
+Ex02. Você foi contratado para realizar um sistema de um banco.
+
+a. Crie uma classe "Conta" que deve ter:
+
+Atributos:
+- titular (string)
+- saldo (float)
+
+Metódos:
+- sacar(valor)
+- render()
+
+Por padrão, a conta não irá render nada quando o metódo for chamado, e o saldo não pode ser menor que zero
+
+b. Crie uma classe "ContaCorrente" que deve ter:
+
+- titular (string)
+- saldo (float)
+- cheque_especial (float) - por padrão 0
+
+A conta corrente irá render 1% do saldo, e o saldo não pode ser menor que o cheque especial
+Exemplo: se a conta tem 100 reais, mas tem 200 de cheque especial, ao sacar 200 ela ficará com -100 de saldo
+
+c. Crie uma classe "ContaInvestimento" que deverá ter:
+
+- titular (string)
+- saldo (float)
+
+A conta investimento irá render 3% do saldo, e o saldo não pode ser menor que zero.
