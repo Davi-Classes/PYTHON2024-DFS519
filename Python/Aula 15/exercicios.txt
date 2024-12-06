@@ -1,0 +1,9 @@
+Ex01. Crie uma tabela chamada “medicos” que deve armazenar os dados: 
+
+- nome
+- crm (8 digitos)
+- data_nascimento
+- ativo
+
+OBS: Para o material completo acessem: 
+https://davi-lucciola.notion.site/Banco-de-Dados-a5c7bb508e564e7aa10b5161cc1604f6
