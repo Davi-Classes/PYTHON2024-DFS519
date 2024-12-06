@@ -5,5 +5,7 @@ Ex01. Crie uma tabela chamada “medicos” que deve armazenar os dados:
 - data_nascimento
 - ativo
 
+Ex02. Insiram 3 Registros na Tabela de Médicos
+
 OBS: Para o material completo acessem: 
 https://davi-lucciola.notion.site/Banco-de-Dados-a5c7bb508e564e7aa10b5161cc1604f6
